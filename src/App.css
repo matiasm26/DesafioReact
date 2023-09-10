@@ -1,0 +1,35 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0;
+  /* padding: 2rem; */
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  max-height: 100vh;
+}
+
+.card {
+  padding: 1em;
+}
+
+.content {
+  min-width: 90vw;
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+/* App.css */
+
+/* Estilo del fondo */
+#root {
+  background-image: url('https://www.gratistodo.com/wp-content/uploads/2016/07/pokemon-wallpapers-12.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+}
+
